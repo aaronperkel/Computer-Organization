@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Binary Converter</title>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='stylesheet.css') }}">	
+</head>
+<body>
+
+<h1>Aaron Perkel's Binary Converter</h1>
+<br>
+
+<form>
+    <input id="binary-input" type="text">
+    <button id="convert-button" type="button">Convert</button>
+</form>
+
+<h3 id="decimal"></h3>
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="/static/binaryconverter.js"></script>
+
+</body>
+</html>

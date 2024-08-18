@@ -1,0 +1,9 @@
+/* Apply background gradient */
+body {
+  background: linear-gradient(45deg, #00a3d7 0%, #94e3fe 70%);
+}
+
+/* Set text color */
+body {
+  color: #444444;
+}
